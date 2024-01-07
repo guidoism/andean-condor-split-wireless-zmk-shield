@@ -3,8 +3,8 @@ id: corney_island
 name: Corney Island
 type: shield
 url: https://github.com/ceoloide/corney-island/
-requires: [pro_micro]
-exposes: [i2c_oled]
+requires: [pro_micro, i2c_oled]
+exposes: [nice_view_header]
 features:
   - keys
   - display
