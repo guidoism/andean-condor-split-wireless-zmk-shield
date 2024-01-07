@@ -1,0 +1,16 @@
+if CORNEY_ISLAND_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Corney Island"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if CORNEY_ISLAND_LEFT || CORNEY_ISLAND_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

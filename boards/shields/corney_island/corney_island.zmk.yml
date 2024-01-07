@@ -1,0 +1,13 @@
+file_format: "1"
+id: corney_island
+name: Corney Island
+type: shield
+url: https://github.com/ceoloide/corney-island/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - corney_island_left
+  - corney_island_right
