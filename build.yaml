@@ -18,7 +18,7 @@
 #
 ---
 include:
-  - board: corney_island_wireless
+  - board: corney_island
     shield: corney_island_left
-  - board: corney_island_wireless
+  - board: corney_island
     shield: corney_island_right
