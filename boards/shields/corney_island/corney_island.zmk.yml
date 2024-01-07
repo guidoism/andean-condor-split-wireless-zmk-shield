@@ -7,7 +7,6 @@ requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
-  - display
 siblings:
   - corney_island_left
   - corney_island_right

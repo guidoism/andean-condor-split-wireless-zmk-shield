@@ -18,7 +18,7 @@
 #
 ---
 include:
-  - board: corney_island
+  - board: nice_nano_v2
     shield: corney_island_left
-  - board: corney_island
+  - board: nice_nano_v2
     shield: corney_island_right
