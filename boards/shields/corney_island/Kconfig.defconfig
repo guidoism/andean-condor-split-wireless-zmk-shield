@@ -19,7 +19,7 @@ if SHIELD_CORNEY_ISLAND_LEFT || SHIELD_CORNEY_ISLAND_RIGHT
             default y
 
         config SSD1306
-            default y
+            default n
 
         config SSD1306_REVERSE_MODE
             default y
