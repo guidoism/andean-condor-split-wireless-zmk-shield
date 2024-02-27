@@ -32,3 +32,11 @@ include:
     shield: corney_island_right nice_view
     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
     artifact-name: corney_island_right_with_logging
+  - board: nice_nano_v2
+    shield: corney_island_left nice_view
+    cmake-args: -DCONFIG_ZMK_BLE_EXPERIMENTAL_CONN=y
+    artifact-name: corney_island_left_ble_experimental
+  - board: nice_nano_v2
+    shield: corney_island_right nice_view
+    cmake-args: -DCONFIG_ZMK_BLE_EXPERIMENTAL_CONN=y
+    artifact-name: corney_island_right_ble_experimental
