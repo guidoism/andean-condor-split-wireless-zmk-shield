@@ -1,7 +1,7 @@
 if SHIELD_CORNEY_ISLAND_LEFT
 
     config ZMK_KEYBOARD_NAME
-        default "Corney Island"
+        default "Andean Condor Split"
 
     config ZMK_SPLIT_ROLE_CENTRAL
         default y
